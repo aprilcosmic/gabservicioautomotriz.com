@@ -106,10 +106,17 @@ h1, h2, h3, p { margin: 0; }
 .hero__foto .cuadros { position: absolute; right: -12px; bottom: -12px; width: 96px; height: 96px; border-radius: 4px; }
 
 /* Franja de datos */
-.franja { background: var(--negro); color: var(--blanco); }
+.franja { background: var(--rojo); color: var(--blanco); }
 .franja__fila { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; padding-top: 22px; padding-bottom: 22px; font-family: var(--titulo); font-weight: 700; font-size: 20px; letter-spacing: 0.06em; text-transform: uppercase; }
-.franja a { color: var(--blanco); text-decoration: none; border-bottom: 2px solid var(--rojo); }
-.franja a:hover { color: var(--blanco); border-bottom-color: var(--blanco); }
+.franja a { color: var(--blanco); text-decoration: none; border-bottom: 2px solid var(--blanco); }
+.franja a:hover { color: var(--negro); border-bottom-color: var(--negro); }
+
+/* Sección oscura */
+.seccion--oscura { background: var(--negro); color: var(--blanco); }
+.seccion--oscura .intro { color: #DEDCD7; }
+.seccion--oscura .paso { border-top-color: var(--rojo); }
+.seccion--oscura .paso__num { color: #FF6B5E; }
+.seccion--oscura .paso p { color: var(--gris-claro); }
 
 /* Pasos */
 .pasos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
